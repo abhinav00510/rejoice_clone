@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Rejouice;
+  src: url(./SuisseIntl-Light.woff2);
+}
+
+@font-face {
+  font-family: Rejoy;
+  src: url(./SuisseIntl-Regular.woff2);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  /* background-color: crimson; */
+  position: relative;
+}
+
+#cursor {
+  height: 6vw;
+  width: 6vw;
+  background-color: #ff5f38;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+}
+
+#cursor h5 {
+  color: black;
+  font-weight: 600;
+  font-size: 1vw;
+  font-family: Rejouice;
+}
+
+#page1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#page1-content {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(0, 0, 0); */
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3vw;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    mix-blend-mode: difference;
+}
+
+nav h3 {
+  font-size: 1.4vw;
+  font-family: Rejouice;
+  font-weight: 500;
+}
+
+nav h4 {
+  font-size: 1.4vw;
+  font-family: Rejouice;
+  font-weight: 500;
+}
+
+#page1-content h1 {
+  font-family: Rejoy;
+  font-size: 25vw;
+  font-weight: 200;
+  /* line-height: 27vw; */
+  top: 50%;
+}
+
+#page1-content h1 span {
+  font-family: Rejoy;
+}
+
+#page2 {
+  height: 57vh;
+  width: 100%;
+  background-color: black;
+  /* position: relative; */
+  padding: 4vw 3vw;
+}
+
+#page2 h1{
+  font-size: 4.2vw;
+  text-indent: 15vw;
+  font-family: Rejouice;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+#page2 a{
+  font-size: 4.2vw;
+  font-family: Rejouice;
+  font-weight: 400;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+#page3{
+  height: 72vh;
+  width: 100%;
+  padding-top: 1vw;
+  margin: 1px solid white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#page3 h2{
+  font-size: 1.3vw;
+  font-weight: 400;
+  font-family: Rejouice;
+}
+
+#page3 #left{
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  padding-left: 2.2vw;
+}
+
+#page3 #right{
+  width: 50%;
+  height: 100%;
+  /* background-color: blue; */
+  padding-right: 1vw;
+}
+
+#page3 a{
+  font-size: 1.3vw;
+  font-family: Rejouice;
+  font-weight: 400;
+  line-height: 1.1;
+  text-decoration: none;
+}
